@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 80px;
+	margin-bottom: 120px;
+	background-color: #6caff9;
+	box-sizing: border-box;
+	padding: 40px;
+	border-radius: 10px;
+	height: 120vh;
+}
+
+#banniere {
+	display: none;
+	background-color: #4f6c8d;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	right: 0;
+	height: 20vh;
+}
+
+#banniere_header {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#croix {
+	opacity: 0.6;
+	margin-top: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#croix:hover {
+	opacity: 1;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2em;
+}
